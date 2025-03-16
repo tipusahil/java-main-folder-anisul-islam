@@ -1,4 +1,4 @@
-public class Product2 {
+public class JavaFormatSpecifiers {
 
     public static void main(String[] args) {
 
@@ -20,7 +20,10 @@ public class Product2 {
         float CGPA = 4.2f;
 
 
-        String format_specifier = String.format("Name: %s \n age: %d \n CGPA: %.3f " , name,age,CGPA);
+        String format_specifier = String.format("Name: %s \n age: %d \n CGPA: %.3f " , name,age,CGPA);//ekane evate format specifier er maddome evabe tamplete er moto kore lika hoise jeta js e batcktick diye lika hoto.
+
+
+
         String format_specifier2 = String.format("%s  , %.6f  , %d " , name,CGPA,age);///ekane cgpa er ketre dosomik er pore 6ta ghor/sonkadekabe, karon ami format specifier er ketre f er age dosoomik er pore 6diyeci tai
 
 /* 
