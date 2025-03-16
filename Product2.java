@@ -14,5 +14,20 @@ public class Product2 {
                 + "\nCategory: " + category;
 
         System.out.println(output1);
+
+        String  name = "tipu";
+        int age = 23;
+        float CGPA = 4.2f;
+
+
+        String format_specifier = String.format("Name: %s \n age: %d \n CGPA: %.3f " , name,age,CGPA);
+        String format_specifier2 = String.format("%s  , %.6f  , %d " , name,CGPA,age);///ekane cgpa er ketre dosomik er pore 6ta ghor/sonkadekabe, karon ami format specifier er ketre f er age dosoomik er pore 6diyeci tai
+
+/* 
+ * dosomik er pore (%.2f = dosomik er pore 2ta sonka dekabe evabe parcenttage er pore dosomik er pore f er age jei sonka dewa hobe dosomik er pore tik tototai sonka float number e dekabe.)
+ */
+
+        System.out.println(format_specifier);
+        System.out.printf(format_specifier2);
     }
 }
